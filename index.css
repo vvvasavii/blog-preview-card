@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+html {
+  background-color: hsl(47, 88%, 63%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  /*this is whats briging the container to the page's vertucal centre*/
+}
+
+.frame {
+  display: flex;
+  flex-direction: column;
+  align-items: last baseline;
+  justify-content: center;
+  background-color: hsl(0, 0%, 100%);
+  border: 2px solid hsl(0, 0%, 7%);
+  border-radius: 20px;
+  width: 355px;
+  height: 480px;
+  padding-left: 21px;
+  box-shadow: 6px 6px 1px rgba(0, 0, 0, 1);
+}
+
+.svg-container {
+  border-radius: 10px;
+  /* Applying the border-radius to the container ic css doc bc svg wasnt allowing it to happen*/
+  overflow: hidden;
+}
+
+.Learningtext {
+  border: 1px solid hsl(47, 88%, 63%);
+  background-color: hsl(47, 88%, 63%);
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 11px;
+  padding-right: 11px;
+  margin-top: 25px;
+  border-radius: 4px;
+  font-family: "Figtree", sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  margin-bottom: 13px;
+}
+
+.Publishedtext {
+  font-family: "Figtree", sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.htmltext {
+  font-family: "Figtree", sans-serif;
+  font-size: 22px;
+  font-weight: 800;
+  margin-bottom: 15px;
+}
+
+.htmltext:hover {
+  color: hsl(47, 88%, 63%);
+}
+
+.langstext {
+  font-family: "Figtree", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  color: hsl(0, 0%, 50%);
+}
+
+.hoopie img {
+  width: 30px;
+  height: 30px;
+  margin-top: 25px;
+  margin-right: 10px;
+}
+
+.hoopie {
+  font-family: "Figtree", sans-serif;
+  font-size: 15px;
+  font-weight: 900;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+}
+
+.hoopie .name {
+  margin-top: 20px;
+}
