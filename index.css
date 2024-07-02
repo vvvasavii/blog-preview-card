@@ -24,13 +24,17 @@ html {
   display: flex;
   flex-direction: column;
   align-items: last baseline;
-  justify-content: center;
+  
   background-color: hsl(0, 0%, 100%);
-  border: 2px solid hsl(0, 0%, 7%);
+  border: 1px solid hsl(0, 0%, 7%);
   border-radius: 20px;
-  width: 355px;
-  height: 480px;
-  padding-left: 21px;
+  width: 335px;
+  height: 473px;
+  padding-top: 24px;
+  padding-right: 24px;
+  padding-left: 24px;
+  padding-bottom: 24px;
+  
   box-shadow: 6px 6px 1px rgba(0, 0, 0, 1);
 }
 
@@ -38,35 +42,39 @@ html {
   border-radius: 10px;
   /* Applying the border-radius to the container ic css doc bc svg wasnt allowing it to happen*/
   overflow: hidden;
+  height: 200px;
+  width: 336px;
 }
 
 .Learningtext {
   border: 1px solid hsl(47, 88%, 63%);
   background-color: hsl(47, 88%, 63%);
   padding-top: 5px;
-  padding-bottom: 5px;
+  padding-bottom: 2px;
   padding-left: 11px;
   padding-right: 11px;
-  margin-top: 25px;
+  margin-top: 24px;
   border-radius: 4px;
   font-family: "Figtree", sans-serif;
   font-size: 16px;
   font-weight: 800;
   margin-bottom: 13px;
+  width: 77px;
+  height: 24px;
 }
 
 .Publishedtext {
   font-family: "Figtree", sans-serif;
   font-size: 13px;
   font-weight: 600;
-  margin-bottom: 15px;
+  margin-bottom: 13px;
 }
 
 .htmltext {
   font-family: "Figtree", sans-serif;
   font-size: 22px;
   font-weight: 800;
-  margin-bottom: 15px;
+  margin-bottom: 13px;
 }
 
 .htmltext:hover {
@@ -75,28 +83,31 @@ html {
 
 .langstext {
   font-family: "Figtree", sans-serif;
-  font-size: 15px;
+  font-size: 16px;
   font-weight: 500;
   color: hsl(0, 0%, 50%);
 }
 
 .hoopie img {
-  width: 30px;
-  height: 30px;
+  width: 33px;
+  height: 33px;
   margin-top: 25px;
   margin-right: 10px;
+  
+ 
 }
 
 .hoopie {
   font-family: "Figtree", sans-serif;
   font-size: 15px;
-  font-weight: 900;
+  font-weight:800;
   display: flex;
   flex-direction: row;
   align-items: center;
   text-align: center;
+  padding-top: 5px;
 }
 
-.hoopie .name {
-  margin-top: 20px;
+.hoopie .name{
+  padding-top: 19px;
 }
