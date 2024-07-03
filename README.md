@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/vvvasavii/blog-preview-card)
-- Live Site URL: [Add live site URL here](https://blog-preview-card-kappa-jet.vercel.app/)
+- Solution URL: [https://www.frontendmentor.io/profile/vvvasavii]
+- Live Site URL: [https://blog-preview-card-kappa-jet.vercel.app/]
 
 ## My process
 
@@ -49,8 +49,8 @@ In short,this project helped me grasp how to actually use styles and put my newl
 ## Author
 My name is Vasavi Dwivedi. I'm currently doing Btech cs.
 
-- Website - [Add your name here](https://blog-preview-card-kappa-jet.vercel.app/)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/vvvasavii)
+- Website - [https://blog-preview-card-kappa-jet.vercel.app/]
+- Frontend Mentor - [https://www.frontendmentor.io/profile/vvvasavii]
 
 
 ## Acknowledgments
